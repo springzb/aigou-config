@@ -12,7 +12,7 @@ eureka:
     prefer-ip-address: true
 zuul:
   routes:
-    myUser.serviceId: aigou-plat #ÕâÊÇµ÷ÓÃÂú×ãÌõ¼şµÄ·şÎñÃû£¬×¢ÒâÒªĞ¡Ğ´
-    myUser.path: /plat/** #ÕâÊÇËùÓĞÂ·¾¶Ç°µÄÍ¨Åä
-  ignored-services: "*" #ÓÃ*À´Í¨Åä·û£¬ºöÂÔ´Ó9527¶Ë¿ÚÍ¨¹ı·şÎñÃûÀ´µ÷ÓÃ
-  prefix: "/services" #ÕâÊÇËùÓĞÂ·¾¶µÄÇ°×º
+    plat.serviceId: aigou-plat #è¿™æ˜¯è°ƒç”¨æ»¡è¶³æ¡ä»¶çš„æœåŠ¡åï¼Œæ³¨æ„è¦å°å†™
+    plat.path: /plat/** #è¿™æ˜¯æ‰€æœ‰è·¯å¾„å‰çš„é€šé…
+  ignored-services: "*" #ç”¨*æ¥é€šé…ç¬¦ï¼Œå¿½ç•¥ä»9527ç«¯å£é€šè¿‡æœåŠ¡åæ¥è°ƒç”¨
+  prefix: "/services" #è¿™æ˜¯æ‰€æœ‰è·¯å¾„çš„å‰ç¼€
